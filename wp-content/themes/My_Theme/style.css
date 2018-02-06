@@ -1,0 +1,179 @@
+/*  
+Theme Name: New Theme
+Theme URI: YourWebsite.com
+Description: Your Theme Description
+Version: 1.0
+Author: Your Name
+Author URI: http://www.yourwebsite.com
+
+*/
+
+html {
+    width: 100%;
+    height: 100%
+}
+body {
+    width: inherit;
+    height: inherit;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    color: #3c3c3c;
+}
+
+nav.navbar-inverse{
+  background: 0;
+  border: 0;
+  position: absolute;
+  width: 100%;
+  margin-bottom: 0;
+
+}
+nav.navbar a.navbar-brand {
+    color: #fff;
+    font-size: 13px;
+}
+
+section.slider-section{
+  width:inherit;
+  height:inherit;
+  padding:0;
+   
+}
+section.slider-section .slider{
+  width: inherit;
+    height: inherit;
+    padding-top: 50px;
+    position: relative;
+    background-image: url(images/slider.jpg);
+    background-size: cover;
+
+}
+
+section.slider-section .slider .logo-section .logo img{
+  display:block;
+  margin:auto;
+}
+section.slider-section .slider .slider-description{
+  position: absolute;
+    width: 100%;
+    bottom: 0;
+    margin-bottom: 35px;
+    color: #fff;
+}
+section.slider-section .slider .slider-description .slider_content{
+  text-align: center;
+}
+section.slider-section .slider .slider-description  .slide-infobox{
+padding: 5px;
+    text-align: center;
+    color: #3c3c3c;
+    background: #fff;
+    right: 20px;
+
+}
+section.slider-section .slider .slider-description  .slide-infobox .btn-close{
+    width: 20px;
+    height: 20px;
+    color: #ffffff;
+    background: #1da2d5;
+    padding: 5px;
+    border-radius: 50%;
+    position: absolute;
+    top: -7px;
+    right: -7px;
+}
+section.slider-section .slider .slider-description  .slide-infobox h4{
+  font-size: 11px;
+    color: #1da2d5;
+}
+
+section.slider-section .slider .slider-description  .slide-infobox p{
+
+font-weight: 300;
+    line-height: 17px;
+}
+
+section.slider-section .slider .slider-description  .slide-infobox .btn.read_more{
+  color: #fff;
+    background: #1da2d5;
+    border-radius: 0;
+    margin-bottom: 10px;
+}
+section.main-content-wapper.container-fulid div {
+    text-align: center;
+}
+section.main-content-wapper.container-fulid div h1{ 
+    font-size: 35px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+section.main-content-wapper.container-fulid div p{ 
+line-height: 18px;
+font-size: 13px;
+font-weight: 300;
+color:#131313;
+}
+#header{
+  float: left;
+  width: 750px;
+}
+
+#container{
+  float: left;
+  width: 400px;
+}
+
+.sidebar{
+  float: left;
+  width: 240px;
+  background: #ffffff;
+  margin: 0 0 0 10px;
+  display: inline;
+}
+
+.sidebar h2{
+  font-size: 20px;
+}
+
+#footer{
+  clear: both;
+  float: left;
+  width: 750px;
+}
+
+.comments-template{
+  margin: 10px 0 0;
+  border-top: 1px solid #ccc;
+  padding: 10px 0 0;
+}
+
+.comments-template ol{
+  margin: 0;
+  padding: 0 0 15px;
+  list-style: none;
+}
+
+.comments-template ol li{
+  margin: 10px 0 0;
+  line-height: 18px;
+  padding: 0 0 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.comments-template h2, .comments-template h3{
+  font-family: Georgia, Sans-serif;
+  font-size: 16px;
+}
+
+.commentmetadata{
+  font-size: 12px;
+}
+
+.comments-template p.nocomments{
+  padding: 0;
+}
+
+.comments-template textarea{
+  font-family: Arial, Helvetica, Georgia, Sans-serif;
+  font-size: 12px;
+}
